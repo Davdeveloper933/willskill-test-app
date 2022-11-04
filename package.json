@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && next export && git add -f out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages"
+    "deploy": "next build && next export && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "gh-pages": "^4.0.0",
@@ -39,6 +39,7 @@
     "webpack-stream": "^7.0.0"
   },
   "devDependencies": {
+    "babel-plugin-transform-define": "^2.1.0",
     "browser-sync": "^2.27.10",
     "del": "^7.0.0",
     "eslint": "8.26.0",
