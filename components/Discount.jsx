@@ -16,7 +16,7 @@ const Discount = () => {
                     <div className={styles.Discount__box}>
                         <div className={styles.Discount__item}>
                             <div>
-                                <Image alt="ginger" src={require('../src/img/ginger.png')} />
+                                <Image alt="ginger" src={require('../public/img/ginger.png')} />
                             </div>
                             <h4>
                                 Содержит <span>имбирь</span>
@@ -24,7 +24,7 @@ const Discount = () => {
                         </div>
                         <div className={styles.Discount__item}>
                             <div>
-                                <Image alt="nootris" src={require('../src/img/nootris.png')} />
+                                <Image alt="nootris" src={require('../public/img/nootris.png')} />
                             </div>
                             <h4 className={styles.Discount__delivery}>
                                 + Бесплатная доставка
@@ -33,7 +33,7 @@ const Discount = () => {
                         </div>
                         <div className={styles.Discount__item}>
                         <div>
-                                <Image alt="virus" src={require('../src/img/virus.png')} />
+                                <Image alt="virus" src={require('../public/img/virus.png')} />
                             </div>
                             <h4>
                                 Нейтрализует<span>вирусы</span>

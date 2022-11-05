@@ -2,6 +2,9 @@
     padding: 110px 0;
     background: #111111;
     @media screen and (max-width:992px) {
+        padding: 80px 0;
+    }
+    @media screen and (max-width:767px) {
         padding: 50px 0;
     }
     &__inner {
@@ -16,7 +19,7 @@
         gap: 111px;
         @media screen and (max-width:1200px) {
             flex-direction: column;
-            gap: 13vw;
+            gap: 20px;
         }
         @media screen and (max-width:767px) {
             margin-top: 30px;
@@ -33,7 +36,7 @@
             color: #FFFFFF;
             margin-top: 78px;
             @media screen and (max-width:1200px) {
-                margin-top: 35px;
+                margin-top: 15px;
             }
             span {
                 display: block;
@@ -99,6 +102,9 @@
         justify-content: center;
         gap: 32px;
         margin-top: 85px;
+        @media screen and (max-width:1200px) {
+            margin-top: 40px;
+        }
         @media screen and (max-width:767px) {
             margin-top: 40px;
         }
@@ -111,18 +117,24 @@
         text-align: center;
         color: #ADADAD;
         text-decoration: line-through;
-        @media screen and (max-width:540px) {
-            font-size: 9vw;
-            line-height: 100%;
+        @media screen and (max-width:767px) {
+            font-size: 1.7rem;
         }
+        // @media screen and (max-width:540px) {
+        //     font-size: 9vw;
+        //     line-height: 100%;
+        // }
     }
     &__priceNew {
         font-size: 48px;
         color: #FFFFFF;
-        @media screen and (max-width:540px) {
-            font-size: 10vw;
-            line-height: 100%;
+        @media screen and (max-width:767px) {
+            font-size: 2rem;
         }
+        // @media screen and (max-width:540px) {
+        //     font-size: 10vw;
+        //     line-height: 100%;
+        // }
     }
     &__buttonWrapper {
         display: flex;
