@@ -3,8 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    loader: 'custom',
-    loaderFile: './my/image/loader.js',
+    unoptimized:true
   },
 }
 module.exports = nextConfig
