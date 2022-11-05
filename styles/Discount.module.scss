@@ -81,13 +81,15 @@
         line-height: 57px;
         text-align: center;
         color: #FFFFFF;
+        @media screen and (max-width:992px) {
+            font-size: 2.5rem;
+            line-height: 100%;
+        }
         @media screen and (max-width:767px) {
             font-size: 2rem;
-            line-height: 2rem;
         }
         @media screen and (max-width:320px) {
             font-size: 10vw;
-            line-height: 100%;
         }
         span {
             display: block;
