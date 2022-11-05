@@ -54,11 +54,7 @@
         line-height: 43px;
         color: #FFFFFF;
         @media screen and (max-width:767px) {
-            font-size: 30px;
-            line-height: 30px;
-        }
-        @media screen and (max-width:320px) {
-            font-size: 12vw;
+            font-size: 1.5rem;
             line-height: 100%;
         }
         span {
@@ -68,11 +64,7 @@
             font-size: 24px;
             line-height: 28px;
             @media screen and (max-width:767px) {
-                font-size: 20px;
-                line-height: 20px;
-            }
-            @media screen and (max-width:320px) {
-                font-size: 10vw;
+                font-size: 1.2rem;
                 line-height: 100%;
             }
         }
@@ -120,10 +112,6 @@
         @media screen and (max-width:767px) {
             font-size: 1.7rem;
         }
-        // @media screen and (max-width:540px) {
-        //     font-size: 9vw;
-        //     line-height: 100%;
-        // }
     }
     &__priceNew {
         font-size: 48px;
